@@ -1,0 +1,89 @@
+body{
+  padding: 0;  
+  margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+  background: url('70.jpg');
+  background-size: cover;
+}
+.header{
+   margin: 20px 30px 0px 30px;
+   user-select: none;
+}
+h1{
+    float: left;
+    color: white;
+    position: relative;
+    user-select: none;
+    border: 2px solid white;
+    padding: 0px 10px;
+}
+ul{
+    float: right;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding:10px 20px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.25s;
+}
+.home{
+    background-color: red;
+    border-radius: 2px;
+}
+.header a:active{
+    color: royalblue;
+    background-color: red;
+    border-radius: 2px;
+
+}
+.header a::after{
+    background-color: red;
+    border-radius: 2px;
+
+}
+.header a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+
+}
+.content{
+    position: fixed;
+    top: 25%;
+    left: 15%;
+    text-align: center;
+    user-select: none;
+}
+h2{
+    font-size: 80px;
+    color: white;
+}
+button{
+    background: red;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 25px;
+    color: white;
+    transition: 0.25s;
+    margin-left: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: tomato;
+    padding: 15px 38px;
+}
+button:active{
+    color: blue;
+    padding: 15px 38px;
+}
